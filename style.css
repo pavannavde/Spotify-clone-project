@@ -6,7 +6,7 @@
 .side-bar{
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     justify-content: start;
      align-items: left;
      width: 18vw;
      height: 100vh;
@@ -45,6 +45,7 @@
     width: 220px;
     height: 40px;
     padding:5px ;
+    flex-wrap: wrap;
 
 }
 .nav1>div:hover{
@@ -79,6 +80,7 @@
     width: 220px;
     height: 40px;
     padding:5px ;
+    flex-wrap: wrap;
 
 }
 .nav2>div:hover{
@@ -137,7 +139,7 @@
 }
 .H-cards{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     margin-right:10px;
     flex-wrap: wrap;
     
@@ -199,4 +201,5 @@
     background-color:rgb(30,215,96) ;
     top:600px;
     padding-left: 20px;
+    flex-wrap: wrap;
 } 
